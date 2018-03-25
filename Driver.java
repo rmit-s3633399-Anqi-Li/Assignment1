@@ -85,7 +85,7 @@ public class Driver {
 	private void findoutParentNames(){
 		
 		System.out.println();
-		System.out.print("Please input the teenager's name : ");
+		System.out.print("Please input the teenager's name : Mary");
 		String name = inputChoice.next();
 
 		Teenager teenager = db.getTeenagerUserByName(name);
@@ -95,8 +95,8 @@ public class Driver {
 		}
 		Adult mother = teenager.getMother();
 		Adult father = teenager.getFather();
-		System.out.println(teenager.getName()+"'s father is : " + father.getName());
-		System.out.println(teenager.getName()+"'s mother is : " + mother.getName());
+		System.out.println(teenager.getName()+"'s father is :Don " + father.getName());
+		System.out.println(teenager.getName()+"'s mother is :Bella " + mother.getName());
 	}
 	
 	/**
