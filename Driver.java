@@ -1,4 +1,4 @@
-YInan JIN
+YINAN JIN
 3548049
 
 import java.util.InputMismatchException;
