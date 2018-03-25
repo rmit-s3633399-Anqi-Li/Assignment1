@@ -1,3 +1,7 @@
+/**
+ * @author YINAN JIN s3548049
+ */
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -82,7 +86,7 @@ public class Driver {
 	private void findoutParentNames(){
 		
 		System.out.println();
-		System.out.print("Please input the teenager's name : ");
+		System.out.print("Please input the teenager's name : Mary");
 		String name = inputChoice.next();
 
 		Teenager teenager = db.getTeenagerUserByName(name);
@@ -92,8 +96,8 @@ public class Driver {
 		}
 		Adult mother = teenager.getMother();
 		Adult father = teenager.getFather();
-		System.out.println(teenager.getName()+"'s father is : " + father.getName());
-		System.out.println(teenager.getName()+"'s mother is : " + mother.getName());
+		System.out.println(teenager.getName()+"'s father is :Don " + father.getName());
+		System.out.println(teenager.getName()+"'s mother is :Bella " + mother.getName());
 	}
 	
 	/**
@@ -102,7 +106,7 @@ public class Driver {
 	private void findoutChidlrenNames(){
 		
 		System.out.println();
-		System.out.print("Please input the adult's name : ");
+		System.out.print("Please input the adult's name :Alice ");
 		String name = inputChoice.next();
 
 		Adult adult = db.getAdultUserByName(name);
@@ -408,7 +412,7 @@ public class Driver {
 		System.out.println("Gender  :    " + this.seletedPerson.getGender());
 		if(this.seletedPerson instanceof Adult){
 			Adult selectedAdult = (Adult)this.seletedPerson;
-			System.out.println("Partner :    " + (selectedAdult.getPartner()==null?"Empty":selectedAdult.getName()));
+			System.out.println("Partner :    " + selectedAdult.getPartner()==null?"Empty":selectedAdult.getName());
 		}
 		System.out.println("Age     :    " + this.seletedPerson.getAge());
 		System.out.println("Hobbies :    " + this.seletedPerson.getHobbies());
