@@ -55,7 +55,7 @@ public class DataBase {
 		Teenager teenager = new Teenager("Kevin","Male",12,"nothing","nothing",adultList.get(1),adultList.get(0));
 		this.teenagerList.add(teenager);
 		this.personList.add(teenager);
-		teenager = new Teenager("Mary","Femal",14,"nothing","nothing",adultList.get(1),adultList.get(0));
+		teenager = new Teenager("Mary","Femal",6,"nothing","nothing",adultList.get(1),adultList.get(0));
 		this.teenagerList.add(teenager);
 		this.personList.add(teenager);
 	}
