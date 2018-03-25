@@ -1,3 +1,7 @@
+/**
+ * @author YINAN JIN s3548049
+ */
+
 import java.util.ArrayList;
 
 public class DataBase {
@@ -28,28 +32,32 @@ public class DataBase {
 		
 		Adult adult;
 		
-		adult = new Adult("Alice","Female", 20,"dance,music","student at RMIT");
+		adult = new Adult("Alice","Female", 22,"dance,music","student at RMIT");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Bob","Male", 21,"sports","working at KFC");
+		adult = new Adult("Bob","Male", 46,"sports","working at KFC");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Cathy","Female", 22,"math,music","Freelance");
+		adult = new Adult("Cathy","Female", 43,"math,writing","Freelance");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Don","Male", 23,"football,baseball","looking for jobs");
+		adult = new Adult("Don","Male", 35,"football,baseball","working at bank");
+		personList.add(adult);
+		adultList.add(adult);
+		
+		adult = new Adult("Bella","Female", 31,"shopping,movie","looking for jobs");
 		personList.add(adult);
 		adultList.add(adult);
 		
 		
 		
-		Teenager teenager = new Teenager("Kevin","Male",4,"nothing","nothing",adultList.get(1),adultList.get(0));
+		Teenager teenager = new Teenager("Kevin","Male",12,"nothing","nothing",adultList.get(1),adultList.get(0));
 		this.teenagerList.add(teenager);
 		this.personList.add(teenager);
-		teenager = new Teenager("David","Male",4,"nothing","nothing",adultList.get(1),adultList.get(0));
+		teenager = new Teenager("Mary","Femal",6,"nothing","nothing",adultList.get(1),adultList.get(0));
 		this.teenagerList.add(teenager);
 		this.personList.add(teenager);
 	}
