@@ -1,6 +1,3 @@
-Yinan  Jin
-s3548049
-
 import java.util.ArrayList;
 
 /**
