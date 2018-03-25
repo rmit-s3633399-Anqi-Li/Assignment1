@@ -1,3 +1,5 @@
+YINAN JIN  s3548049
+
 import java.util.ArrayList;
 
 public class DataBase {
