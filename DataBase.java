@@ -1,4 +1,6 @@
-YINAN JIN  s3548049
+/**
+ * @author YINAN JIN s3548049
+ */
 
 import java.util.ArrayList;
 
