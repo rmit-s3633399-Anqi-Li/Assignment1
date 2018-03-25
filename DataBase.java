@@ -30,23 +30,23 @@ public class DataBase {
 		
 		Adult adult;
 		
-		adult = new Adult("Alice","Female", 20,"dance,music","student at RMIT");
+		adult = new Adult("Alice","Female", 22,"dance,music","student at RMIT");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Bob","Male", 40,"sports","working at KFC");
+		adult = new Adult("Bob","Male", 46,"sports","working at KFC");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Cathy","Female", 36,"math,writing","Freelance");
+		adult = new Adult("Cathy","Female", 43,"math,writing","Freelance");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Don","Male", 31,"football,baseball","working at bank");
+		adult = new Adult("Don","Male", 35,"football,baseball","working at bank");
 		personList.add(adult);
 		adultList.add(adult);
 		
-		adult = new Adult("Bella","Female", 28,"shopping,movie","looking for jobs");
+		adult = new Adult("Bella","Female", 31,"shopping,movie","looking for jobs");
 		personList.add(adult);
 		adultList.add(adult);
 		
