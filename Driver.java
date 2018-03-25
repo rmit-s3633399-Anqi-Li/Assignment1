@@ -1,5 +1,6 @@
-YINAN JIN
-3548049
+/**
+ * @author YINAN JIN s3548049
+ */
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
