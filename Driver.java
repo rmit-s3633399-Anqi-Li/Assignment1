@@ -105,7 +105,7 @@ public class Driver {
 	private void findoutChidlrenNames(){
 		
 		System.out.println();
-		System.out.print("Please input the adult's name : ");
+		System.out.print("Please input the adult's name :Alice ");
 		String name = inputChoice.next();
 
 		Adult adult = db.getAdultUserByName(name);
